@@ -3,7 +3,7 @@
 A cloud-based file storage management application built with **Next.js 15**, **TypeScript**, **TailwindCSS**, and **Appwrite**.  
 This app allows users to **upload, manage, and share files securely** with authentication, permissions, and usage tracking.  
 
-🚀 Live Demo → [Storage Cloud Manager]([https://storage-management-tawny.vercel.app](https://storage-management-alpha-sage.vercel.app/))  
+🚀 Live Demo → [Storage Cloud Manager](https://storage-management-alpha-sage.vercel.app/))  
 
 ---
 
