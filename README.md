@@ -29,3 +29,25 @@ This app allows users to **upload, manage, and share files securely** with authe
 
 ## 📂 Project Structure  
 
+storage-cloud-manager/
+│── app/ # Next.js app router pages
+│── components/ # Reusable UI components
+│── lib/ # Appwrite client, utilities
+│── public/ # Static assets
+│── styles/ # Global styles
+│── .env.local # Environment variables (not committed)
+│── tailwind.config.ts # Tailwind configuration
+│── package.json # Dependencies & scripts
+
+
+---
+
+## ⚙️ Setup & Installation  
+
+### 1. Clone the repo  
+```bash
+git clone https://github.com/your-username/storage-cloud-manager.git
+cd storage-cloud-manager
+
+
+
