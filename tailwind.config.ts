@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import animate from "tailwindcss-animate";
+import tailwindAnimate from "tailwindcss-animate";
 
 const config: Config = {
   darkMode: ["class"],
@@ -75,12 +75,6 @@ const config: Config = {
       fontFamily: {
         poppins: ["var(--font-poppins)"],
       },
-      fontSize: {
-        h1: ["2.25rem", { lineHeight: "2.5rem", fontWeight: "700" }], // ~text-3xl
-        h2: ["1.875rem", { lineHeight: "2.25rem", fontWeight: "600" }], // ~text-2xl
-        "body-1": ["1rem", { lineHeight: "1.5rem", fontWeight: "400" }], // ~text-base
-        "body-2": ["0.875rem", { lineHeight: "1.25rem", fontWeight: "400" }], // ~text-sm
-      },
       boxShadow: {
         "drop-1": "0px 10px 30px 0px rgba(66, 71, 97, 0.1)",
         "drop-2": "0 8px 30px 0 rgba(65, 89, 214, 0.3)",
@@ -106,6 +100,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [animate],
+  plugins: [tailwindAnimate],
 };
 export default config;
